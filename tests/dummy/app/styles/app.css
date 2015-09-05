@@ -2,6 +2,8 @@ body {
   padding: 20px;
   font-family: monospace;
   font-size: 16px;
+  max-width: 850px;
+  margin: auto;
 }
 
 nav {
@@ -25,7 +27,7 @@ nav > a {
 .code {
   background-color: rgb(229, 229, 229);
   padding: 10px;
-  overflow: overlay;
+  overflow: scroll;
 }
 
 .twitter_feed {
