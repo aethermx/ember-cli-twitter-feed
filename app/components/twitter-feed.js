@@ -1,0 +1,1 @@
+export { default } from 'ember-cli-twitter-feed/components/twitter-feed';

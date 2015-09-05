@@ -1,3 +1,10 @@
-<h2 id="title">Welcome to Ember</h2>
+<h2 id="title">
+  <a href="https://github.com/aethermx/ember-cli-twitter-feed">
+    ember-cli-twitter-feed</a></h2>
+
+<nav>
+  {{link-to 'show feed' 'index' id='feed'}}
+  {{link-to 'no feed' 'no-feed' id='nofeed'}}
+</nav>
 
 {{outlet}}

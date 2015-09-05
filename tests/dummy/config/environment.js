@@ -43,5 +43,24 @@ module.exports = function(environment) {
 
   }
 
+  ENV.contentSecurityPolicy = {
+    'script-src': [
+      "'self'", 
+      'https://syndication.twitter.com',
+      'http://platform.twitter.com',
+      'https://cdn.syndication.twimg.com',
+      "'sha256-XnNQECY9o-nIv2Qgcd1A39YarwxTm10rhdzegH_JBxY='"],
+    'style-src': [
+      "'self'", 
+      'http://platform.twitter.com',
+      "'sha256-zCvYlDs6LsUp0EqrJFjIGUiM_AG2fGlkNrzJ2YiBTG0='"],
+    'img-src': [
+      "'self'", 
+      'data:',
+      'https://pbs.twimg.com',
+      'https://syndication.twitter.com',
+      'http://platform.twitter.com']
+  };
+
   return ENV;
 };

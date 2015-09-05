@@ -1,0 +1,30 @@
+body {
+  padding: 20px;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+nav {
+  border: 0 solid rgb(223, 223, 223);
+  border-width: 0 0 5px 0;
+  margin: 4px;
+  padding: 12px;
+  font-size: 1.4rem;
+}
+
+a {
+  font-weight: bold;
+}
+
+.code {
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.twitter_feed {
+  display: inline-block;
+}
+
+.text_center {
+  text-align: center;
+}
