@@ -12,9 +12,11 @@ like this:
 
 ```
 {{#twitter-feed}}
-  <!-- paste snippet here -->
+  <!-- paste only the HTML line here -->
 {{/twitter-feed}}
 ```
+
+Demo: http://aethermx.github.io/ember-cli-twitter-feed/
 
 ## Development
 
