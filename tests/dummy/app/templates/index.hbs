@@ -2,12 +2,18 @@
   In your template:
 </p>
 
-<div class="code">\{{twitter-feed}}</div>
+<pre class="code">
+\{{#twitter-feed}}
+  &lt;a ...>snippet provided by twitter&lt;/a>
+\{{/twitter-feed}}
+</pre>
 
 <p>
   Result:
 </p>
 
 <div class="text_center">
-  {{twitter-feed}}
+  {{#twitter-feed}}
+    <a class="twitter-timeline"  href="https://twitter.com/hashtag/emberjs" data-widget-id="639895199179767808">#emberjs Tweets</a>
+  {{/twitter-feed}}
 </div>
