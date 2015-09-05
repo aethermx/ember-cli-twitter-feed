@@ -7,6 +7,15 @@ An ember component that shows a Twitter feed.
 
     ember install ember-cli-twitter-feed
 
+Go to https://twitter.com/settings/widgets, get your code snippet and use it
+like this:
+
+```
+{{#twitter-feed}}
+  <!-- paste snippet here -->
+{{/twitter-feed}}
+```
+
 ## Development
 
 ### Installation

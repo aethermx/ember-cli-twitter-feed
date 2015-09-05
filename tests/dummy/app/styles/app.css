@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-  border: 0 solid rgb(223, 223, 223);
+  border: 0 solid rgb(255, 174, 0);
   border-width: 0 0 5px 0;
   margin: 4px;
   padding: 12px;
@@ -14,11 +14,18 @@ nav {
 
 a {
   font-weight: bold;
+  text-decoration: none;
+}
+
+nav > a {
+  background-color: #AEEDEB;
+  padding: 6px 20px;
 }
 
 .code {
-  background-color: lightgray;
+  background-color: rgb(229, 229, 229);
   padding: 10px;
+  overflow: overlay;
 }
 
 .twitter_feed {
