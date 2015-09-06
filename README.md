@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/aethermx/ember-cli-twitter-feed.svg?branch=master)](https://travis-ci.org/aethermx/ember-cli-twitter-feed)
 [![Code Climate](https://codeclimate.com/github/aethermx/ember-cli-twitter-feed/badges/gpa.svg)](https://codeclimate.com/github/aethermx/ember-cli-twitter-feed)
+[![Ember Observer Score](http://emberobserver.com/badges/ember-cli-twitter-feed.svg)](http://emberobserver.com/addons/ember-cli-twitter-feed)
 
 # ember-cli-twitter-feed
 
