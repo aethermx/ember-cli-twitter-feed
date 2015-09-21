@@ -1,9 +1,18 @@
+
+Install the addon:
+
+<pre class="code">ember install ember-cli-twitter-feed</pre>
+
 <p>
-  In your template:
+  Go to
+  <a href="https://twitter.com/settings/widgets" target="_blank">
+    https://twitter.com/settings/widgets</a>,
+  get your code snippet and use it in your template:
 </p>
 
 <pre class="code">
 \{{#twitter-feed}}
+  &lt;!-- paste only the HTML line here -->
   &lt;a class="twitter-timeline"  href="https://twitter.com/hashtag/emberjs" data-widget-id="639895199179767808">#emberjs Tweets&lt;/a>
 \{{/twitter-feed}}
 
