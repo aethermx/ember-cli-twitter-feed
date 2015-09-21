@@ -15,7 +15,6 @@ export default Ember.Component.extend({
 
     // TODO: instead of _insertedNode.remove() do _inserted.reEvaluateish() ????
 
-    let _this = this;
     let insertedNode = null;
     /* Widget JS provided by Twitter start */
     /*jshint ignore:start*/
