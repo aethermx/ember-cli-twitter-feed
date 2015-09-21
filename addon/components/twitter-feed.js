@@ -15,6 +15,7 @@ export default Ember.Component.extend({
 
     // TODO: instead of _insertedNode.remove() do _inserted.reEvaluateish() ????
 
+    let _this = this;
     let insertedNode = null;
     /* Widget JS provided by Twitter start */
     /*jshint ignore:start*/
@@ -28,13 +29,13 @@ export default Ember.Component.extend({
         js.src = p+"://platform.twitter.com/widgets.js";
         insertedNode = fjs.parentNode.insertBefore(js,fjs); // custom
       } else {
-        Ember.Logger.error('A twitter-wjs node is already present.'); // custom
+        Ember.Logger.warn('A #twitter-wjs DOM node is already present.'); // custom
       }
     }(document,"script","twitter-wjs");
     /*jshint ignore:end*/
     /* Widget JS provided by Twitter end */
 
-    Ember.assert('A twitter-wsj node was inserted.', insertedNode);
+    Ember.assert('A #twitter-wsj DOM node was inserted.', insertedNode);
 
     this._insertedNode = insertedNode;
   },
