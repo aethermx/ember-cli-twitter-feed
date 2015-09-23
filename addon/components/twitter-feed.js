@@ -29,6 +29,7 @@ export default Ember.Component.extend({
         insertedNode = fjs.parentNode.insertBefore(js,fjs); // custom
       } else {
         Ember.Logger.warn('A #twitter-wjs DOM node is already present.'); // custom
+        Ember.Logger.warn('Please verify that you are NOT including the JS line provided by Twitter.'); // custom
       }
     }(document,"script","twitter-wjs");
     /*jshint ignore:end*/
